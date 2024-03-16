@@ -99,7 +99,7 @@ execute at @a[nbt={SelectedItem:{id:"minecraft:feather"}}] run data modify entit
 
 scoreboard players set @a[nbt={SelectedItem:{tag:{Enchantments:[{}]}}}] EnchantedSelectedItem 1
 scoreboard players set @a[nbt=!{SelectedItem:{tag:{Enchantments:[{}]}}}] EnchantedSelectedItem 0
-item modify entity @a[scores={EnchantedSelectedItem=..0},nbt=!{SelectedItem:{}}] weapon.mainhand emanhunt:enchant_randomly
+item modify entity @a[scores={EnchantedSelectedItem=..0}] weapon.mainhand emanhunt:enchant_randomly
 
 #execute at @a[scores={useRepeater=1..}] at @a[distance=..10,nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] run summon minecraft:item ~ ~ ~ {PickupDelay:40s,Item:{id:"minecraft:shield",Count:1b,tag:{dropped_shield:1b,Enchantments:[{id:unbreaking,lvl:1}]}}}
 #execute as @e[type=item,nbt={Item:{tag:{dropped_shield:1b}}}] at @s store result entity @s Item.tag.Enchantments double 1 run data get entity @p Inventory[{Slot:-106b}].tag.Enchantments
