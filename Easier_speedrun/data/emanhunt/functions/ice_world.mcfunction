@@ -1,0 +1,11 @@
+summon armor_stand ~ ~-5 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~-4 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~-3 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~-2 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~-1 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~0 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~1 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~2 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~3 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~4 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}
+summon armor_stand ~ ~5 ~ {Invisible:1b,Marker:1b,Tags:["iceWorld"]}

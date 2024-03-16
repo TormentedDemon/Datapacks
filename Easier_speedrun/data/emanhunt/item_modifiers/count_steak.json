@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:limit_count",
+    "limit": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "countItem",
+        "scale": 1
+      },
+      "max": 10000
+    }
+  }
+]

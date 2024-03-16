@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Ice Aspect",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

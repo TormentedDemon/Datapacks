@@ -1,0 +1,9 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": [
+      "{Enchantments:[{id:frozen_aspect}]}"
+    ],
+    "replace":false
+  }
+]

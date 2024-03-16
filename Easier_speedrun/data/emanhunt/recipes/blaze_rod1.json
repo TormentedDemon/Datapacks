@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "minecraft:stick"
+    },
+    "result": "minecraft:blaze_rod",
+    "experience": 10,
+    "cookingtime": 40
+}

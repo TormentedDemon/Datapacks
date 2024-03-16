@@ -1,0 +1,1 @@
+give @s polar_bear_spawn_egg{EntityTag:{id:area_effect_cloud,Particle:barrier,Color:16701501,Radius:5,Duration:200,Tags:["meltingSnow","mS"]},display:{Name:'[{"text":"Melting ","italic":false,"color":"gold","bold":true},{"text":"Snow","color":"yellow"}]'}} 64

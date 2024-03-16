@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Too cold!",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "replace": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.0786
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.00673
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.00243
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
